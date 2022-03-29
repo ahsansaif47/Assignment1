@@ -1,0 +1,36 @@
+body {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+#outer-cont {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.block {
+    height: 100px;
+    min-width: 150px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+
+.block:last-child{
+    position: absolute;
+    right: 0%;
+    bottom: 0%
+}
+
+.block:hover{
+    cursor: grab;
+    background-color: yellow;
+    color: goldenrod;
+}
